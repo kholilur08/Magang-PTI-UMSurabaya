@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div class="bg-indigo-900 min-h-screen">
+        <div class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-3 flex flex-col my-2 w-2/4 mx-auto">
+              <div class="-mx-3 mb-3">
+                <div class="w-full space-y-8">
+                    <div>
+                      <div class="flex flex-wrap justify-center">
+                        <div class="px-4">
+                          <img src="LandscapeLogo.png" alt="..." class="transition-shadow ease-in-out duration-300 shadow-none hover:shadow-xl max-w-full h-auto align-middle border-none" />
+                        </div>
+                      </div>
+                        <h2 class="mt-6 text-center text-3xl font-extrabold text-gray-900">
+                            Presensi Kegiatan Pengenalan Budaya Akademik dan Kemahasiswaan
+                        </h2>
+                    </div>
+                    <div>
+                        <label class="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-1"for="grid-first-name">
+                            Nama
+                            <span class="text-red-500">*</span>
+                        </label>
+                        <input
+                        class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-gray-400 py-3 px-4"
+                        id="grid-first-name" type="text" placeholder="Nama">
+                        <p class="text-red-500 text-xs italic mb-3">Isi dengan huruf abjad.</p>
+                        <label class="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-1"for="grid-first-name">
+                            Email
+                            <span class="text-red-500">*</span>
+                        </label>
+                        <input
+                          class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-gray-400 py-3 px-4 mb-3"
+                          id="grid-first-name" type="text" placeholder="Email">
+                          <label class="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-1"for="grid-first-name">
+                            Nomor Telepon
+                            <span class="text-red-500">*</span>
+                        </label>
+                        <input
+                            class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-gray-400 py-3 px-4"
+                            id="grid-first-name" type="text" placeholder="Nomor telepon">
+                            <p class="text-red-500 text-xs italic mb-3">maksimal 14 digit.</p>
+                                
+              <div>
+                <label for="Prodi" class="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-1" for="grid-first-name">
+                    Prodi
+                    <span class="text-red-500">*</span>
+                </label>
+                <div class="relative">
+                  <select class="block appearance-none w-full bg-grey-lighter text-grey-darker border border-gray-400 py-3 px-4 pr-8 rounded" id="grid-state">
+                  <option>Pilih Prodi</option>
+                  <option>Teknik Elektro</option>
+                  <option>Arsitektur</option>
+                  <option>Teknik Komputer</option>
+                  <option>Teknik Mesin</option>
+                  <option>Teknik Perkapalan</option>
+                  <option>Teknik Sipil</option>
+                  <option>Teknik Industri</option>
+                  <option>Teknik Informatika</option>
+                </select>
+                <p class="text-red-500 text-xs italic mb-3">Pilih salah satu</p>
+        <div class="pointer-events-none absolute pin-y pin-r flex items-center px-2 text-grey-darker">
+          <svg class="h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>      
+        </div>
+            </div>
+            </div>
+              <div><label for="Prodi" class="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-1" for="grid-first-name">
+                TIngkat Kepuasan
+                <span class="text-red-500">*</span></div>
+              <div class="main flex flex-col overflow-hidden mb-3 select-none">
+                </label>
+                <label class="flex radio p-2 cursor-pointer">
+                  <input class="my-auto transform scale-125" type="radio" name="sfg" />
+                  <div class="title px-2">sangat buruk</div>
+                </label>
+              
+                <label class="flex radio p-2 cursor-pointer">
+                  <input class="my-auto transform scale-125" type="radio" name="sfg" />
+                  <div class="title px-2">buruk</div>
+                </label>
+              
+                <label class="flex radio p-2 cursor-pointer">
+                  <input class="my-auto transform scale-125" type="radio" name="sfg" />
+                  <div class="title px-2">cukup</div>
+                </label>
+              
+                <label class="flex radio p-2 cursor-pointer">
+                  <input class="my-auto transform scale-125" type="radio" name="sfg" />
+                  <div class="title px-2">baik</div>
+                </label>
+
+                <label class="flex radio p-2 cursor-pointer">
+                    <input class="my-auto transform scale-125" type="radio" name="sfg" />
+                    <div class="title px-2">sangat baik</div>
+                  </label>
+              </div>
+              <label class="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-1"for="grid-first-name">
+                Pesan dan Kesan
+                <span class="text-red-500">*</span>
+             </label>
+                  <textarea class="form-control block w-full mb-3 text-base font-normal text-grey-darker bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out bg-grey-lighter border border-grey-lighter text-grey-darker"id="exampleFormControlTextarea1"rows="3">
+                  </textarea>
+                </div>
+              </div>
+                                <div>
+                                    <button type="submit" class="group relative w-3/12 flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-cyan-600 hover:bg-cyan-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-600">
+                                      <span class="absolute left-0 inset-y-0 flex items-center pl-3">
+                                      </span>
+                                      Submit
+                                    </button>
+                                  </div>
+                      </div> 
+                </div>
+            </div>
+      </div>  
+    </div>      
+</body>
+
+</html>
